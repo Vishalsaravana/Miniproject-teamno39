@@ -4,7 +4,6 @@ import numpy as np
 import openai
 
 result_index=0
-openai.api_key = 'yourapikey'
 #Tensorflow Model Prediction
 def model_prediction(test_image):
     model = tf.keras.models.load_model("trained_plant_disease_model.keras")
